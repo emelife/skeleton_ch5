@@ -59,7 +59,6 @@ extern struct mutex skel_devlist_lock;
 extern int TW68_no_overlay;
 //LIST_HEAD(skel_devlist);
 extern int first_time;
-//static unsigned int skel_devcount;
 int num_irq;
 bool have_dma = false;
 u32 dma_irq_count = 0;
