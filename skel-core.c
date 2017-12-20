@@ -79,7 +79,7 @@ static const struct pci_device_id skeleton_pci_tbl[] = {
 
 u32 FB_BASE_ADDR[VIDEO_NUM]={0x80005000 , 0x80005040 , 0x80005080 , 0x800050c0 , 0x80005100};  //5 channels
 //u32 FB_BASE_ADDR[VIDEO_NUM]={0x80005000};                                                        //1 channel
-
+//hello world
 MODULE_DEVICE_TABLE(pci, skeleton_pci_tbl);
 void release_curr_buff(struct skeleton *skel,int fb_id)
 {
